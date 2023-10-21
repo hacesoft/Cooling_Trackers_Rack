@@ -5,8 +5,7 @@ Cooling of Trackers in the Rack
 Jednoduchá funkce pro ovládání ventilátoru zapojena přes SHELLY PLUG IN na základě údajů z MPTT trackeru VICTRON. Funkce je implementována v prostředí NODE-RED. 
  
 
-**Popis funkce:** Z MPTT trackeru se vyčítá aktualní výkon, ten se sečte a když je výkon roven a nebo vetší než 1kW, tak se zapne zasuvka SHELLY PLUG IN pomocí příkazu: 
-
+**Popis funkce:** Z MPTT trackeru se vyčítá aktuální výkon, ten se sečte a když je výkon roven anebo vetší než 1kW, tak se zapne zásuvka SHELLY PLUG IN pomocí příkazu: 
  
 ```
 http://xx.xx.xx.xx/relay/0?turn=on 
