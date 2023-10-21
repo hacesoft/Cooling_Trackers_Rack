@@ -12,7 +12,7 @@ Jednoduchá funkce pro ovládání ventilátoru zapojena přes SHELLY PLUG IN na
 http://xx.xx.xx.xx/relay/0?turn=on 
  ```
 
-Místo: xx.xx.xx.xx je třeba dosadit vlastní IP adresu SHELLY PLUG Inu, tak že editujete nod SUB_TrackerS a tam vyhledáte proměnnou: <font color="red">sIpAddress</font>
+Místo: xx.xx.xx.xx je třeba dosadit vlastní IP adresu SHELLY PLUG Inu, tak že editujete nod SUB_TrackerS a tam vyhledáte proměnnou: **sIpAddress**
  
 
 Změníte na adresu, kterou potřebujete třeba:  
