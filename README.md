@@ -1,4 +1,5 @@
-Cooling_Trackers_Rack
+# Cooling_Trackers_Rack
+
 Cooling of Trackers in the Rack
 
 Jednoduchá funkce pro ovládání ventilátoru zapojena přes SHELLY PLUG IN na základě údajů z MPTT trackeru VICTRON. Funkce je implementována v prostředí NODE-RED. 
