@@ -76,6 +76,7 @@ msg._url = `http://${sIpAddress}/relay/${nRelayNumber}?turn=${sTurn}`;
 return msg;
 ```
 
+
 Provedení v RED-NODE
 ![Colling_node_red.png](./Colling_node_red.png)
 
