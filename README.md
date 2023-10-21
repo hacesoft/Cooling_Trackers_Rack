@@ -1,7 +1,31 @@
-# Cooling_Trackers_Rack
+Cooling_Trackers_Rack
 Cooling of Trackers in the Rack
 
+Jednoduchá funkce pro ovládání ventilátoru zapojena přes SHELLY PLUG IN na základě údajů z MPTT trackeru VICTRON. Funkce je implementována v prostředí NODE-RED. 
+ 
 
+**Popis funkce:** Z MPTT trackeru se vyčítá aktualní výkon, ten se sečte a když je výkon roven a nebo vetší než 1kW, tak se zapne zasuvka SHELLY PLUG IN pomocí příkazu: 
+
+ 
+```
+http://xx.xx.xx.xx/relay/0?turn=on 
+ ```
+
+Místo: xx.xx.xx.xx je třeba dosadit vlastní IP adresu SHELLY PLUG Inu, tak že editujete nod SUB_TrackerS a tam vyhledáte proměnnou: **sIpAddress** 
+ 
+
+Změníte na adresu, kterou potřebujete třeba:  
+```
+const sIpAddress = "192.168.1.10"; 
+```
+Nezapomenout potvrdit změnu a provést Deploy.  
+
+Kód napsaný v Javě obsahuje i hysterezi, aby při aktuálním výkonu solárních nabíječek Victron kolem 1kW se ventilátory nezapínaly a nevypínaly v intervalech 5 sekund. Tak je v kódu proměnná **nHysteresisTime**, která udává čas změny až po dobu 5 minut (300 sekund). 
+
+Ventilátory se po dosažení výkonu menším, než 1kW vypnou pomocí příkazu: 
+```
+http://xx.xx.xx.xx/relay/0?turn=off
+```
 
 ```
 //*****************************************************************************
