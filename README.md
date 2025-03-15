@@ -3,7 +3,8 @@
 Cooling of Trackers in the Rack
 
 Toto FLOW není dále aktualizováno, nicméně, je zde popsáno způsob ovládání. Pro novější verzi se podívejte sem: https://github.com/hacesoft/Linea/tree/main?tab=readme-ov-file#linea
-![image](https://github.com/user-attachments/assets/ac8d2b8e-e025-4c61-9ce9-34a6cc471bbb)
+![image](https://github.com/user-attachments/assets/0e920405-32e4-4dee-8a06-68bc3f3edf43)
+
 
 
 Jednoduchá funkce pro ovládání ventilátoru zapojena přes SHELLY PLUG IN na základě údajů z MPTT trackeru VICTRON. Funkce je implementována v prostředí NODE-RED. 
