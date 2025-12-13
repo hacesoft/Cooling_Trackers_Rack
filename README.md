@@ -3,7 +3,8 @@ Cooling of Trackers in the Rack
 
 Tento FLOW není samostatně funkční, chybí mu globální funkce a nastavení, které jsou součástí: https://github.com/hacesoft/Linea/tree/main?tab=readme-ov-file#linea
 
-![image](https://github.com/user-attachments/assets/0e920405-32e4-4dee-8a06-68bc3f3edf43)
+<img width="1687" height="595" alt="image" src="https://github.com/user-attachments/assets/f2125a2d-28aa-4d88-beaa-d31cb1ac17ea" />
+
 
 **Popis funkce:**
 
