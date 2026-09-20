@@ -1,4 +1,4 @@
-[Česká verze](README_CZ.md) · [Linea project](https://github.com/hacesoft/Linea) · [Original repository](https://github.com/hacesoft/Cooling_Trackers_Rack)
+[🇨🇿 **Česky**](README_CZ.md) | [🇬🇧 English](README.md) | [Linea project](https://github.com/hacesoft/Linea)
 
 # Cooling Trackers Rack
 
